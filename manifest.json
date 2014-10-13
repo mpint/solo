@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "manifest_version": 2,
   "description": "Keeps loved ones close to lonely developers.",
-  "devtools_page": "devtools.html",
+  "devtools_page": "./app/__devtools.html",
   "homepage_url": "https://github.com/SpaceProphet",
   "permissions": [
     "tabs",
