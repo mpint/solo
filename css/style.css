@@ -1,0 +1,6 @@
+form#my-awesome-dropzone {
+    height: 10em; 
+    width: 10em;
+    display: inline-block;
+    border: 4px dotted #999;
+}
