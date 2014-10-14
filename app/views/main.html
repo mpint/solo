@@ -1,24 +1,15 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+
+{{ working }}
+
 </div>
 
-<div class="row marketing">
-    {{working}}
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
-
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+  <div ng-controller="DragDropCtrl">
+    <input type="file" ng-file-select="onFileSelect($files)" multiple accept="image/*">
+    <div class="button" ng-file-select="onFileSelect($files)" data-multiple="true"></div>
+    <div id='drop-zone' ng-file-drop="onFileSelect($files)" ng-file-drag-over-class="optional-css-class-name-or-function">
+      drop files here
+  </div> <!-- this works for drag and drop implementation -->
+<!--   <div ng-file-drop-available="dropSupported=true" 
+        ng-show="!dropSupported">HTML5 Drop File is not supported!</div> -->
 </div>

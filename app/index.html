@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html class="no-js" ng-app="familyphotos" ng-csp=''>
   <head>
     <meta charset="utf-8">
@@ -62,13 +62,17 @@
     <script src="../bower_components/angular-animate/angular-animate.js"></script>
     <script src="../bower_components/angular-touch/angular-touch.js"></script>
     <script src="../bower_components/angular-route/angular-route.js"></script>
+    <script src="../bower_components/ng-file-upload/angular-file-upload.js"></script> 
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="./scripts/app.js"></script>
+        <!-- <script src="./filesystem/fs.js"></script> -->
         <script src="./scripts/controllers/main.js"></script>
         <script src="./scripts/controllers/about.js"></script>
+        <script src="./scripts/controllers/dragdrop.js"></script>
+
         <!-- endbuild -->
 </body>
 </html>

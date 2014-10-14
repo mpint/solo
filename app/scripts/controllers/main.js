@@ -1,9 +1,8 @@
+'use strict';
+
 angular.module('familyphotos.main', [])
   .controller('MainCtrl', function ($scope) {
-  $scope.working = 'ITS WORKING AGAIN';
-  $scope.awesomeThings = [
-    'HTML5 Boilerplate',
-    'AngularJS',
-    'Karma'
-  ];
+    $scope.working = 'Angular is stable';
+    $scope.image = null;
+    $scope.imageFileName = '';
 });

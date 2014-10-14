@@ -1,11 +1,13 @@
 angular.module('familyphotos', [
     'familyphotos.main',
+    // 'familyphotos.dragdrop',
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'angularFileUpload'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -21,3 +23,4 @@ angular.module('familyphotos', [
         redirectTo: '/'
       });
   });
+

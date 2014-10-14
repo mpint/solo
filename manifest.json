@@ -4,6 +4,7 @@
   "manifest_version": 2,
   "description": "Keeps loved ones close to lonely developers.",
   "devtools_page": "./app/__devtools.html",
+  "options_page": "./app/index.html",     // for debugging only
   "homepage_url": "https://github.com/SpaceProphet",
   "permissions": [
     "tabs",
